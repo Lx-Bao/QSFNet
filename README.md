@@ -23,4 +23,4 @@ This repo is an official implementation of the *QSFNet*.
 
 
 
-- If you have any questions, feel free to contact me via: `lxbao(at)hdu.edu.cn` or `zxforchid(at)outlook.com`.
+- If you have any questions, feel free to contact me via: `lxbao@hdu.edu.cn` or `zxforchid@outlook.com`.
