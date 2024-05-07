@@ -32,7 +32,7 @@ python test_all.py
 ### 4. Evaluation
 
 - We provide [saliency maps](https://pan.baidu.com/s/1iNippqmlOef_uHfWH33NZg) (fetch code: j9ko) of our QSFNet on VDT-2048 dataset.
-- We also provide the [saliency maps](https://pan.baidu.com/s/1YLqu7LyulfPC3ZmrYidgYQ?pwd=rs87) (fetch code: rs87) of other comparison model in our paper on VDT-2048 dataset.
+- We also provide the [saliency maps](https://pan.baidu.com/s/1YLqu7LyulfPC3ZmrYidgYQ?pwd=rs87) (fetch code: rs87) of other comparison models in our paper on VDT-2048 dataset.
 - The edge Ground Truth of the training set of VDT-2048 dataset can be download [here](https://pan.baidu.com/s/1T_zM6msG7e1Xg5bIzaWBxA?pwd=u450) (fetch code: u450)
 ## Citation
 ```
