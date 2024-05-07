@@ -2,7 +2,7 @@
 
 
 This repo is an official implementation of the *QSFNet*.
-**The code will be published after the paper is accepted.**
+**Quality-aware Selective Fusion Network for VDT Salient Object Detection. IEEE Transactions on Image Processing (2024).**
 
 ## Prerequisites
 
