@@ -11,7 +11,8 @@ This repo is an official implementation of the *QSFNet*.
 ### 1. Clone the repository
 
 ### 2. Training
-Download the pretrained model **swin_base_patch4_window12_384_22k.pth** and **resnet34-333f7ec4.pth**.
+Download the pretrained model **swin_base_patch4_window12_384_22k.pth** and **resnet34-333f7ec4.pth**. <br>
+
 You can train the three stages entirely by using 
 ```
 python Train_all.py
