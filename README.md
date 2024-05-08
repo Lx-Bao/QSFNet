@@ -41,6 +41,8 @@ python test_all.py
   author={Bao, Liuxin and Zhou, Xiaofei and Lu, Xiankai and Sun, Yaoqi and Yin, Haibing and Hu, Zhenghui and Zhang, Jiyong and Yan, Chenggang},
   journal={IEEE Transactions on Image Processing},
   year={2024},
+  volume={33},
+  pages={3212 - 3226},
   publisher={IEEE}
 }
 ```
