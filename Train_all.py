@@ -222,7 +222,8 @@ if __name__ == '__main__':
             loss3_d = structure_loss(score3_d, label)
             loss2_d = structure_loss(score2_d, label)
             loss1_d = structure_loss(score1_d, label)
-            T_loss = losseg_out + loss1 + loss2 + loss3 + loss1_t + loss2_t + loss3_t + loss1_d + loss2_d + loss3_d + loss1_out + loss2_out + loss3_out + loss4_out
+            T_loss = losseg_out + loss1 + loss2 + loss3 + loss1_t + loss2_t + loss3_t + loss1_d + loss2_d + loss3_d + loss1_out*2 + loss2_out + loss3_out + loss4_out
+            #T_loss = losseg_out + loss1 + loss2 + loss3 + loss1_t + loss2_t + loss3_t + loss1_d + loss2_d + loss3_d + loss1_out + loss2_out + loss3_out + loss4_out
 
             r_T_loss += T_loss.data
             T_loss.backward()
