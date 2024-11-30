@@ -379,7 +379,7 @@ class Tnet(nn.Module):
         x1e_dt = self.CBAM1(x1_dt)
         x1e_pred_dt = self.final_1_dt(x1e_dt)
 
-        edge_pred = torch.sigmoid(self.final_edge(edge))
+        edge_pred = self.final_edge(edge)
         edge_pred = self.up2(edge_pred)
 
         x1e_pred_dt = self.up2(x1e_pred_dt)
