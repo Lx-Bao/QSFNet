@@ -19,6 +19,10 @@ Third Stage
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 IOU = pytorch_iou.IOU(size_average = True)
 
+def bce_loss(pred,target):
+    bce = F.binary_cross_entropy_with_logits(pred, target, reduction='mean')
+    return bce
+
 def structure_loss(pred, mask):
     weit = 1 + 5*torch.abs(F.avg_pool2d(mask, kernel_size=31, stride=1, padding=15) - mask)
     wbce = F.binary_cross_entropy_with_logits(pred, mask, reduction='none')
