@@ -4,11 +4,7 @@ import time
 from tqdm import tqdm
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
-
-
-import yaml
-
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 def computeTime(model1,model2, device='cuda'):
     inputs1 = torch.randn(1, 3, 384, 384)
