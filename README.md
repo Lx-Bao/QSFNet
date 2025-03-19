@@ -12,6 +12,7 @@ This repo is an official implementation of the *QSFNet*.
 
 ### 2. Training
 Download the pretrained model **swin_base_patch4_window12_384_22k.pth** and **resnet34-333f7ec4.pth**. <br>
+Download the edge Ground Truth of the training set of VDT-2048 dataset [here](https://pan.baidu.com/s/1T_zM6msG7e1Xg5bIzaWBxA?pwd=u450) (fetch code: u450) and put it on the training set folder. <be>
 
 You can train the three stages entirely by using 
 ```
